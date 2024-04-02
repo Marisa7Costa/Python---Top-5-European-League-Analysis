@@ -15,6 +15,9 @@ How does Transfermarkt collect its data?
 Transfermarkt aggregates data from multiple sources, including user submissions, official announcements, media reports, and publications like Kicker, a German soccer magazine. It employs a mix of crowdsourcing and manual data entry to compile and update player profiles, market values, and other relevant information.
 Transfermarkt has a team of 80 staff members, including journalists, moderators, and data scouts, who oversee the platform's operations, data validation, and content management. It relies on hundreds of volunteers who contribute information and updates to the site.
 
+JSON geospacial data source: https://www.kaggle.com/datasets/ktochylin/world-countries
+time series data source: *https://www.statista.com/statistics/556893/premier-league-clubs-revenue-by-stream/
+
 # Data Limitation
 The main limitation with this data set is the collection method relies solely on human input, making room for error. Users/Subscribers can contact the Transfermarkt administration staff to make corrections to data by way for a formal application based according to the type of information being corrected. https://www.transfermarkt.com/intern/datenpflegeGuide These changes are then checked by the administrator and verified before changes to the platform are done.
 Transfermarkt Market Values, which estimate the worth of individual players, are determined through a collaborative process involving users, staff members, and country-specific area managers. These values are periodically reassessed based on factors such as player performance, injuries, transfer activity, and user feedback.
