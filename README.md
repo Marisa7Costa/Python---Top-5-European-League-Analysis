@@ -44,9 +44,12 @@ https://www.transfermarkt.com/intern/faq
 o	Interactive map graph visualising the number of players in each of the big 5 leagues as well as indicating which leagues these players came from before joining the Big5.
 •	The only numerical data variables available to analyse was player’s age, player current market value and player’s highest market value. Based on the exploratory analysis done on these three variables the following hypothesis was picked to test:
 ‘Age influences the market value- the older the player gets the more his market value increases.’
+
 o	Scatter plot showing correlations. 
 
 •	Show different approaches by way of linear regression results.
   
 •	Show different approaches by way of a cluster analysis and results.
 
+
+Tableau Storyboard Link *https://public.tableau.com/app/profile/marisa.costa5685/viz/Top5EuropeanLeagueAnalysis/Top5?publish=yes
