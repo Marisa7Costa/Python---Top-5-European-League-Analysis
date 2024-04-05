@@ -15,8 +15,8 @@ How does Transfermarkt collect its data?
 Transfermarkt aggregates data from multiple sources, including user submissions, official announcements, media reports, and publications like Kicker, a German soccer magazine. It employs a mix of crowdsourcing and manual data entry to compile and update player profiles, market values, and other relevant information.
 Transfermarkt has a team of 80 staff members, including journalists, moderators, and data scouts, who oversee the platform's operations, data validation, and content management. It relies on hundreds of volunteers who contribute information and updates to the site.
 
-JSON geospacial data source: https://www.kaggle.com/datasets/ktochylin/world-countries
-time series data source: *https://www.statista.com/statistics/556893/premier-league-clubs-revenue-by-stream/
+* JSON geospacial data source: https://www.kaggle.com/datasets/ktochylin/world-countries
+* time series data source: *https://www.statista.com/statistics/556893/premier-league-clubs-revenue-by-stream/
 
 # Data Limitation
 The main limitation with this data set is the collection method relies solely on human input, making room for error. Users/Subscribers can contact the Transfermarkt administration staff to make corrections to data by way for a formal application based according to the type of information being corrected. https://www.transfermarkt.com/intern/datenpflegeGuide These changes are then checked by the administrator and verified before changes to the platform are done.
@@ -30,29 +30,29 @@ Transfermarkt’s data has become influential within the soccer industry, servin
 Transfermarkt's data collection methods are rooted in community engagement, user contributions, and a collaborative approach to data validation and estimation. Transfermarkt has evolved into a trusted source of soccer data, shaping discussions and transactions within the global soccer ecosystem.
 
 # Resources:
-https://transfermarkt-datasets.fly.dev/
-https://github.com/dcaribou/transfermarkt-datasets?tab=readme-ov-file#acquirers
-https://www.nytimes.com/2021/08/12/sports/soccer/soccer-football-transfermarkt.html
-https://www.transfermarkt.com/intern/faq
+* https://transfermarkt-datasets.fly.dev/
+* https://github.com/dcaribou/transfermarkt-datasets?tab=readme-ov-file#acquirers
+* https://www.nytimes.com/2021/08/12/sports/soccer/soccer-football-transfermarkt.html
+* https://www.transfermarkt.com/intern/faq
 
 # Guidance questions:
-•	Who: The client is a sports agent who would like to know where the highest valued players have played before moving into one of the Big5 leagues (Germany, Italy, Spain, France, and England).
-•	Why: The client would like to understand which markets/leagues are producing high quality talent. 
-•	What: The storyboard will provide more information on what determines the market value of a player and the likelihood that they will move into one of the Big5 leagues based on available data.
-•	When: This information will be considered by the agency executives for talent scouting strategies and planning. Integrating a data-driven approach into their existing scouting strategy will enhance decision-making and allow for a more targeted and effective talent acquisition.
-•	Where: Tableau Public.
+*	Who: The client is a sports agent who would like to know where the highest valued players have played before moving into one of the Big5 leagues (Germany, Italy, Spain, France, and England).
+*	Why: The client would like to understand which markets/leagues are producing high quality talent. 
+*	What: The storyboard will provide more information on what determines the market value of a player and the likelihood that they will move into one of the Big5 leagues based on available data.
+*	When: This information will be considered by the agency executives for talent scouting strategies and planning. Integrating a data-driven approach into their existing scouting strategy will enhance decision-making and allow for a more targeted and effective talent acquisition.
+*	Where: Tableau Public.
 
 # Storyboard Plan:
-•	The Big5 leagues: Serie A - Italy; Premier League – England; Bundesliga - Germany; Ligue1 - France & LaLiga – Spain, jointly hold the highest share of the player market value and are also the dream leagues all players aspire to play in. In this case study, we will explore what characteristics affect player market value and which leagues are the stepping stones into the Big5 leagues.
+*	The Big5 leagues: Serie A - Italy; Premier League – England; Bundesliga - Germany; Ligue1 - France & LaLiga – Spain, jointly hold the highest share of the player market value and are also the dream leagues all players aspire to play in. In this case study, we will explore what characteristics affect player market value and which leagues are the stepping stones into the Big5 leagues.
+
 o	Interactive map graph visualising the number of players in each of the big 5 leagues as well as indicating which leagues these players came from before joining the Big5.
-•	The only numerical data variables available to analyse was player’s age, player current market value and player’s highest market value. Based on the exploratory analysis done on these three variables the following hypothesis was picked to test:
+
+*	The only numerical data variables available to analyse was player’s age, player current market value and player’s highest market value. Based on the exploratory analysis done on these three variables the following hypothesis was picked to test:
 ‘Age influences the market value- the older the player gets the more his market value increases.’
 
 o	Scatter plot showing correlations. 
-
-•	Show different approaches by way of linear regression results.
-  
-•	Show different approaches by way of a cluster analysis and results.
+* Show different approaches by way of linear regression results.
+* Show different approaches by way of a cluster analysis and results.
 
 
 Tableau Storyboard Link *https://public.tableau.com/app/profile/marisa.costa5685/viz/Top5EuropeanLeagueAnalysis/Top5?publish=yes
