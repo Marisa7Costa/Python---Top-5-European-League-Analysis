@@ -4,13 +4,16 @@ Introduction to structured and unstructured machine learning
 # Data Source
 The dataset that has been selected will provide me with the necessary information/data to answer the main question of my analysis.
 From a soccer scouting perspective, where have the highest valued players played before moving into one of the Big5 leagues (Germany, Italy, Spain, France, and England)?
+
 Dataset downloaded from Kaggle on 24 March 2024
 *https://www.kaggle.com/datasets/davidcariboo/player-scores?resource=download
+
 About the datasets:
-*“How did we build it?
+* “How did we build it?
 The source code that maintains this dataset, as well as the data pipeline, is available in Github. On a high level, the project uses Transfermarkt-scraper to pull the data from Transfermarkt website and a set of Python scripts and SQL to curate it and publish it here.”
+
 This data has been collected and put together by means of data web scraping from www.transfermarkt.co.uk. This data is automatically updated once a week.
-How does Transfermarkt collect its data?
+How does Transfermarkt collect its data? 
 “We rely on the active support of our registered users, who support our voluntary data scouts with information and corrections.”
 Transfermarkt aggregates data from multiple sources, including user submissions, official announcements, media reports, and publications like Kicker, a German soccer magazine. It employs a mix of crowdsourcing and manual data entry to compile and update player profiles, market values, and other relevant information.
 Transfermarkt has a team of 80 staff members, including journalists, moderators, and data scouts, who oversee the platform's operations, data validation, and content management. It relies on hundreds of volunteers who contribute information and updates to the site.
@@ -56,3 +59,4 @@ o	Scatter plot showing correlations.
 
 
 Tableau Storyboard Link *https://public.tableau.com/app/profile/marisa.costa5685/viz/Top5EuropeanLeagueAnalysis/Top5?publish=yes
+
